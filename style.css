@@ -1,11 +1,12 @@
 
+
 body{
-	background: linear-gradient(#A45B34, #2E3236);
+	background: linear-gradient(#EAE6E5,#5B9279);
 	-ms-flex-align: center;
 	-webkit-align-items: center;
 	-webkit-box-align: center;
 	text-align: center;
-	font-family: serif;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: 24;
 }
 
@@ -26,18 +27,37 @@ body{
 	}
 
 h1{
-	color:#DAC5E3;
+	color:#8F8073;
+	font-size:5vw;
 }
 
-section{
-	color:black;
-	}
+.artwork{
+	width:100%;
+	font-size:77%;
+	border-radius:40px;
+	padding-bottom:1px;
+	padding-top:15px;
+}
 
-.rectangle{
-	height:100%;
-	width:80%;
-	background:#7F6453;
-	opacity:0.3;
-	position:relative;
-	z-index:-1;
+/*caption{
+	background-color:#8F8073;
+	opacity:0.6,
+	text-align:center;
+	border-radius:40px;
+	padding-bottom:1px;
+	padding-top:25px;
+}*/
+
+.story{
+	color:black;
+}
+
+.selfDeath{
+	border-radius:20px;
+}
+
+footer{
+	position: relative;
+
+	bottom: 5px;
 }
